@@ -1,11 +1,4 @@
 <div align="center">
-
-<pre>
- /\_/\
-( o.o )
- > ^ <
-</pre>
-
 # [SheetHappiness]
 
 ### probably sleeping
