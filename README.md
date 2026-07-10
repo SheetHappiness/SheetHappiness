@@ -2,9 +2,9 @@
   
   #  SheetHappiness 
   🌙
-<pre>./\___/\.‎ ‎ ‎. ./\___/\
-( ≥^-^≤) ‎. ‎. ‎(=• . •=)
-  / っ🌸‎ ‎. . . ( u u )~~~</pre>
+<pre>./\___/\   /\___/\
+( ≥^-^≤)     ‎(=• . •=)
+  / っ🌸      ( u u )~~~</pre>
   
   
 `ex skin artist` · `visual designer` · `ai enthusiast`
