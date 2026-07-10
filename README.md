@@ -9,18 +9,7 @@
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
-</div><br><br>
-<img src="/door-room.png" width="338" alt="strange place" />
-<img src="/bot-and-flowers.png" width="358" alt="another strange place" />
-
-<br><br>
-
-
-<br>
-
-<img src="/cat.png" width="400" alt="small pixel animation" />
-
-<br>
+</div>
 <br>
 
 <div align="center">
@@ -45,6 +34,19 @@ currently making: `[write something here]`
 </details>
 
 <br><br>
+
+<br><br>
+<img src="/door-room.png" width="338" alt="strange place" />
+<img src="/bot-and-flowers.png" width="358" alt="another strange place" />
+
+<br><br>
+
+
+<br>
+
+<img src="/cat.png" width="400" alt="small pixel animation" />
+
+<br>
 
 <img src="./assets/cat-computer.png" width="190" alt="Cat maintaining the profile">
 
