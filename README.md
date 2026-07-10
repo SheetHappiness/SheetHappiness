@@ -5,7 +5,7 @@
 
 #  SheetHappiness 
 
-### doin somethin on pc dunno how to call it
+### skin artist, visual designer, ai enthusiast, technologist 
 
 <div align="center">
   <img src="./dream-room.png" width="800" alt="Dream room" />
