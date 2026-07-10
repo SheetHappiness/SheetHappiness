@@ -22,7 +22,7 @@
 
 <br>
 
-<img src="YOUR_PIXEL_GIF_URL" width="120" alt="small pixel animation" />
+<img src="/cat.png" width="120" alt="small pixel animation" />
 
 <br>
 
