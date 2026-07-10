@@ -1,9 +1,15 @@
 <div align="center">
 
-<pre> /\_/\ ( o.o ) > ^ < </pre>
+<pre>
+ /\_/\
+( o.o )
+ > ^ <
+</pre>
 
-[SheetHappiness
-probably sleeping
+# [ your name ]
+
+### probably sleeping
+
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div><br><br>
