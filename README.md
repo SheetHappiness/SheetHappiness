@@ -9,7 +9,7 @@
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
-</div>
+</div> 
 
  ### not an actual dev
 `ex skin artist` · `visual designer` · `ai enthusiast`
