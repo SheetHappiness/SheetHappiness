@@ -15,7 +15,7 @@
 
 <br><br>
 
-🌙 [ex skin artist, visual designer, ai enthusiast, technologist ]
+🌙 [ex]
 
 <br>
 
