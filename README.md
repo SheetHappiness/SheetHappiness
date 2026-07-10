@@ -7,7 +7,7 @@
    #  SheetHappiness 
   
   
-`ex skin artist` · `visual designer` · `ai enthusiast`
+· `ex skin artist` · `visual designer` · `ai enthusiast` ·
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
