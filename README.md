@@ -10,6 +10,8 @@
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div>
+ ### not an actual dev
+`ex skin artist` · `visual designer` · `ai enthusiast`
 <div align="center">
 <img src="/door-room.png" width="338" alt="strange place" />
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
