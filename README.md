@@ -21,9 +21,11 @@
 
 <br>
 
-currently learning: `[Python, TypeScript, React, UI/UX design]`
+ ### currently learning:
+ `[Python, TypeScript, React, UI/UX design]`
 
-currently making: `[nutri-circle - mobile-first calorie tracking app]`
+ ### currently making:
+ `[nutri-circle - mobile-first calorie tracking app]`
 <br>
 </details>
 <br><br>
