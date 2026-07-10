@@ -25,7 +25,7 @@
 <img src="/door-room.png" width="338" alt="strange place" />
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
 
-<br><br>
+<br>
 
  ### • The best dev in my whole room •
  
