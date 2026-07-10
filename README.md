@@ -18,7 +18,7 @@
 
 <br>
 
-<img src="/cat.png" width="450" alt="small pixel animation" />
+<img src="/cat.png" width="400" alt="small pixel animation" />
 
 <br>
 
