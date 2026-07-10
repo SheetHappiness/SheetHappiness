@@ -3,7 +3,7 @@
 <pre>
 </pre>
 
-#  SheetHappiness 
+# • SheetHappiness •
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
