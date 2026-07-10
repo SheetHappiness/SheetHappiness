@@ -2,6 +2,10 @@
   
   #  SheetHappiness 
   🌙
+./\___/\.‎ ‎ ‎. . /\___/\
+( ≥^-^≤) ‎. ‎. ‎(=• . •=)
+/ っ🌸‎ . ‎. . .‎‎ . ( u u )~~~
+  
   
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
