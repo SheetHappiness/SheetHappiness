@@ -5,7 +5,7 @@
 
 #  SheetHappiness 
 
-### skin artist, visual designer, ai enthusiast, technologist 
+`ex skin artist, visual designer, ai enthusiast, technologist `
 
 <div align="center">
   <img src="./dream-room.png" width="800" alt="Dream room" />
@@ -15,7 +15,6 @@
 
 <br><br>
 
-`ex skin artist, visual designer, ai enthusiast, technologist `
 
 <br>
 
