@@ -16,7 +16,9 @@
 <div align="center">
 <img src="/door-room.png" width="338" alt="strange place" />
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
+
 <br>
+
 <details>
 <summary>open the drawer</summary>
 
@@ -28,7 +30,6 @@
  `[nutri-circle - mobile-first calorie tracking app]`
 </details>
 
-<br>
 
 <img src="/cat.png" width="400" alt="small pixel animation" />
 
