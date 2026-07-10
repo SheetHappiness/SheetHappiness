@@ -10,6 +10,7 @@
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div> 
 
+`ex skin artist` · `visual designer` · `ai enthusiast`
 <details>
 <summary>𝘁𝗼 𝗴𝗲𝘁 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝗺𝗼𝗿𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻</summary>
  ### currently learning:
