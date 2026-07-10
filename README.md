@@ -18,7 +18,7 @@
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
 
 <details>
-<summary>open the drawer</summary>
+open the drawer</summary>
 
 <br>
 
