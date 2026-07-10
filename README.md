@@ -10,7 +10,9 @@
 
 ### probably sleeping
 
-<img src="YOUR_MAIN_IMAGE_URL" width="520" alt="dream image" />
+<div align="center">
+  <img src="./dream-room.png" width="700" alt="Dream room" />
+</div>
 
 <br><br>
 
