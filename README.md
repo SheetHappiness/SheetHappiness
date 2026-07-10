@@ -43,7 +43,7 @@
 
 <br>
 
-<img src="./assets/cat-computer.png" width="190" alt="Cat maintaining the profile">
+<img src="./assets/cat-computer.png" width="190" alt="𝗖𝗮𝘁 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝘁𝗵𝗲 𝗽𝗿𝗼𝗳𝗶𝗹𝗲">
 
 <br>
 
