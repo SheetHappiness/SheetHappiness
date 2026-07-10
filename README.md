@@ -5,7 +5,7 @@
 
 #  SheetHappiness 
  ### not an actual dev
-`ex skin artist` · `visual designer` · `ai enthusiast`
+`currently sleeping` · `Zzz` · `Zzz`
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
