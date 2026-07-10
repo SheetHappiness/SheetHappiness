@@ -1,4 +1,6 @@
-#  SheetHappiness 
+<div align="center">
+  
+  #  SheetHappiness 
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
