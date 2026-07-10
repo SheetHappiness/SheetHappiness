@@ -1,12 +1,9 @@
 <div align="center">
 
 <pre>
- /\_/\
-( o.o )
- > ^ <
 </pre>
 
-# [ your name ]
+# [ SheetHappiness ]
 
 ### probably sleeping
 
