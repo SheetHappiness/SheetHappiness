@@ -4,7 +4,7 @@
 </pre>
 
 #  SheetHappiness 
- ### still figuring things out
+ ### not an actual dev
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
@@ -21,9 +21,9 @@
 
 <br>
 
-current thought: `[write something here]`
+currently learning: `[Python, TypeScript, React, UI/UX design]`
 
-currently making: `[write something here]`
+currently making: `[nutri-circle - mobile-first calorie tracking app]`
 <br>
 </details>
 <br><br>
