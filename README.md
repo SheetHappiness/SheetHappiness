@@ -5,7 +5,7 @@
 
 #  SheetHappiness 
  ### not an actual dev
-`zzz` · `currently sleeping` · `zzz`
+`Zzz` · `currently sleeping` · `Zzz`
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
