@@ -4,7 +4,7 @@
   🌙
 <pre>./\___/\.‎ ‎ ‎. ./\___/\
 ( ≥^-^≤) ‎. ‎. ‎(=• . •=)
-/ っ🌸‎ ‎. . . ( u u )~~~</pre>
+  / っ🌸‎ ‎. . . ( u u )~~~</pre>
   
   
 `ex skin artist` · `visual designer` · `ai enthusiast`
