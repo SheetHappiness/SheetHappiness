@@ -6,17 +6,26 @@
  > ^ <
 </pre>
 
-# [ SheetHappiness ]
+# [SheetHappiness]
 
 ### probably sleeping
 
-🌙 `[write something here]`
+<img src="YOUR_MAIN_IMAGE_URL" width="520" alt="dream image" />
+
+<br><br>
+
+<img src="YOUR_SMALL_IMAGE_1_URL" width="250" alt="strange place" />
+<img src="YOUR_SMALL_IMAGE_2_URL" width="250" alt="another strange place" />
+
+<br><br>
+
+🌙 `[write something small here]`
 
 <br>
 
-<img src="YOUR_IMAGE_URL" width="500" alt="something strange" />
+<img src="YOUR_PIXEL_GIF_URL" width="120" alt="small pixel animation" />
 
-<br><br>
+<br>
 
 <sub>
 the cat is currently maintaining this profile
