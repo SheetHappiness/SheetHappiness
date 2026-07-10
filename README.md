@@ -3,7 +3,7 @@
 <pre>
 </pre>
 
-# • SheetHappiness •
+#  SheetHappiness 
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
@@ -28,7 +28,7 @@
 
  ### • The best dev in my whole room •
  
-`Zzz` · `currently sleeping` · `Zzz`
+`Zzzzz` · `currently sleeping` · `Zzzzz`
 
 
 
