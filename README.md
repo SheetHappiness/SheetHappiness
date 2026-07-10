@@ -50,11 +50,4 @@ currently making: `[write something here]`
 
 <br>
 
-<sub>the cat is currently maintaining this profile</sub>
-
-</div>
-<sub>
-the cat is currently maintaining this profile
-</sub>
-
 </div>
