@@ -4,7 +4,7 @@
 </pre>
 
 #  SheetHappiness 
- ### • The best dev in my whole room.
+ ### • The best dev in my whole room •
 `Zzz` · `currently sleeping` · `Zzz`
 
 <div align="center">
