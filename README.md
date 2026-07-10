@@ -12,11 +12,7 @@
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
-</div>
-
-wrRWRw rw 
-
-<br><br>
+</div><br><br>
 <img src="/door-room.png" width="338" alt="strange place" />
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
 
