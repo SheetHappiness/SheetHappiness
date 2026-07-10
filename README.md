@@ -13,7 +13,7 @@
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div> 
 
-` homeless ` · ` unemployed` · ` weirdcore enjoyer `
+· `homeless` · `unemployed` · `weirdcore enjoyer` ·
 <details>
 <summary>𝘁𝗼 𝗴𝗲𝘁 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝗺𝗼𝗿𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻</summary>
   
