@@ -16,6 +16,12 @@
 
 <br>
 
+<br><br>
+<br><br>
+<img src="/door-room.png" width="338" alt="strange place" />
+<img src="/bot-and-flowers.png" width="358" alt="another strange place" />
+
+<br><br>
 <details>
 <summary>open the drawer</summary>
 
@@ -28,13 +34,6 @@
  `[nutri-circle - mobile-first calorie tracking app]`
 <br>
 </details>
-<br><br>
-<br><br>
-<img src="/door-room.png" width="338" alt="strange place" />
-<img src="/bot-and-flowers.png" width="358" alt="another strange place" />
-
-<br><br>
-
 
 <br>
 
