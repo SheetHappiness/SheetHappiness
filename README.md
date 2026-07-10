@@ -1,8 +1,3 @@
-<div align="center">
-
-<pre>
-</pre>
-
 #  SheetHappiness 
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
