@@ -11,7 +11,6 @@
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div> 
 
- ### not an actual dev
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
