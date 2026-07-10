@@ -11,7 +11,8 @@
 </div> 
 
 <details>
-<summary>open the drawer</summary>
+  
+`<summary>open the drawer</summary>`
  ### currently learning:
  `[Python, TypeScript, React, UI/UX design]`
 
