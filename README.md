@@ -17,7 +17,7 @@
 <br><br>
 
 <img src="/door-room.png" width="340" alt="strange place" />
-<img src="/bot-and-flowers.png" width="350" alt="another strange place" />
+<img src="/bot-and-flowers.png" width="355" alt="another strange place" />
 
 <br><br>
 
