@@ -15,7 +15,7 @@
 
 <br><br>
 
-🌙 `[write something small here]`
+🌙 `[kin artist, visual designer, ai enthusiast, technologist]`
 
 <br>
 
