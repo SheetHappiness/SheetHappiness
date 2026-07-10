@@ -11,11 +11,8 @@
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div>
 <br>
-
 <div align="center">
-
 <br>
-
 <br><br>
 <br><br>
 <img src="/door-room.png" width="338" alt="strange place" />
