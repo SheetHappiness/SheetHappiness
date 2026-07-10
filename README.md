@@ -32,13 +32,13 @@
 
  ## • 𝗧𝗵𝗲 𝗯𝗲𝘀𝘁 𝗱𝗲𝘃 𝗶𝗻 𝗺𝘆 𝘄𝗵𝗼𝗹𝗲 𝗿𝗼𝗼𝗺 •
  
-`Zzzzz` · `currently sleeping` · `Zzzzz`
+· `Zzzzz` · `currently sleeping` · `Zzzzz` ·
 
 
 
 <img src="/cat.png" width="400" alt="small pixel animation" />    
 
-<sub>𝘁𝗵𝗲 𝗰𝗮𝘁 𝗶𝘀 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 𝗳𝗼𝗿 𝗻𝗼𝘄</sub>
+·<sub>𝘁𝗵𝗲 𝗰𝗮𝘁 𝗶𝘀 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 𝗳𝗼𝗿 𝗻𝗼𝘄</sub>·
 
 
 </div>
