@@ -4,7 +4,7 @@
 </pre>
 
 #  SheetHappiness 
-
+ ### still figuring things out
 `ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
@@ -13,10 +13,6 @@
 <br>
 
 <div align="center">
-
-### still figuring things out
-
-`making things` · `learning slowly` · `overthinking everything`
 
 <br>
 
@@ -28,13 +24,9 @@
 current thought: `[write something here]`
 
 currently making: `[write something here]`
-
 <br>
-
 </details>
-
 <br><br>
-
 <br><br>
 <img src="/door-room.png" width="338" alt="strange place" />
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
