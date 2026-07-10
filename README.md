@@ -36,7 +36,7 @@
 
 
 
-<img src="/cat.png" width="400" alt="small pixel animation" />  <sub>𝘁𝗵𝗲 𝗰𝗮𝘁 𝗶𝘀 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 𝗳𝗼𝗿 𝗻𝗼𝘄</sub>
+<img src="/cat.png" width="400" alt="small pixel animation" />      <sub>𝘁𝗵𝗲 𝗰𝗮𝘁 𝗶𝘀 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 𝗳𝗼𝗿 𝗻𝗼𝘄</sub>
 
 
 </div>
