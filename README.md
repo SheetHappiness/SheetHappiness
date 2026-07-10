@@ -15,7 +15,7 @@
 
 <br><br>
 
-🌙 `[kin artist, visual designer, ai enthusiast, technologist]`
+🌙 `[ skin artist, visual designer, ai enthusiast, technologist ]`
 
 <br>
 
