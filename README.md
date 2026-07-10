@@ -18,16 +18,14 @@
 <img src="/bot-and-flowers.png" width="358" alt="another strange place" />
 
 <details>
-open the drawer</summary>
+<summary>open the drawer</summary>
 
-<br>
 
  ### currently learning:
  `[Python, TypeScript, React, UI/UX design]`
 
  ### currently making:
  `[nutri-circle - mobile-first calorie tracking app]`
-<br>
 </details>
 
 <br>
