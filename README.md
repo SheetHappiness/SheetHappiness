@@ -4,14 +4,14 @@
 </pre>
 
 #  SheetHappiness 
- ### • The best dev in my whole room •
-`Zzz` · `currently sleeping` · `Zzz`
+`ex skin artist` · `visual designer` · `ai enthusiast`
 
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div> 
-
-`ex skin artist` · `visual designer` · `ai enthusiast`
+ ### • The best dev in my whole room •
+ 
+`Zzz` · `currently sleeping` · `Zzz`
 
 <div align="center">
 <img src="/door-room.png" width="338" alt="strange place" />
