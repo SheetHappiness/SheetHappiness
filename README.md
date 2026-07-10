@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="YOUR_SMALL_IMAGE_1_URL" width="250" alt="strange place" />
+<img src="/door-room.png" width="250" alt="strange place" />
 <img src="YOUR_SMALL_IMAGE_2_URL" width="250" alt="another strange place" />
 
 <br><br>
