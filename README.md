@@ -16,7 +16,6 @@
 <details>
 <summary>scary jumpscare/summary>
 
-<table>
 <tr>
 <td valign="top">
 
