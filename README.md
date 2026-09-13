@@ -5,22 +5,16 @@
       / っ🌙     ( u u )~~~</pre>
    # 𝗦𝗵𝗲𝗲𝘁𝗛𝗮𝗽𝗽𝗶𝗻𝗲𝘀𝘀
 
-
-·   ·  ·  ·
-
 <div align="center">
   <img src="./dream-room.png" width="700" alt="Dream room" />
 </div> 
 
-· I go off like an atom bomb · so loud without a sonud at all ·
 <details>
-<summary>scary jumpscare/summary>
 
 <tr>
 <td valign="top">
 
 <pre>
-                                                                                                                  
                            @n.:isssssssssssi:   :
                        * hsssssssssssssssssssssssss+
                     :#esssssssssssssssssssssssssssssssn
@@ -63,38 +57,6 @@
                     .+s      sse :sss nssss   ssesia- :n  - =essie      =s
                     :se  =  ss   s  :ahhet  @hi.:#na     *    e*        -
                     hs*      sst    es  es      petea    i    .n =
-                       i              ap       .shassse   -
-                    -i     =      #        ss*  =hhp**sss
-                  ss@sss  ss* s@  ss   :   =st    ssssssssh
-                 s# esss: +=  s#  s@    -  hn     isssssssss#
-                    spa  =:  ha  -ss       ssssss   ssssss es
-                    ss   +sssss+## =sssssssses  +-:. * .##sss#+
-                +a.es       +  *sse  .sspssh -epne@+*        *s-
-               aihss     ii-  esssse  =:  .sateeeeass#     :is  ss:
-                :#    =ehssspsssssss+#ssssssshsssssssss      ssssap#:
-                     sh  +s:*sssssss--sssssa  sss           hsssenss
-                        se  esssssss+ sss        =e@eh spi sa ethss
-                  sss  *sh#sssssssssss               ehinnn#ssn
-                eh  +-ss# ssssssssssss   ps   ssssssssssssse     #ssssn
-                a:psp    pssssssssssss   =   sssssssssssi.  =+ehssssess
-                senasshase.  =. +snathn+    .+=*###*=---siesssssshssp
-                   t-essssssssshp@s+       .=*@#sinissssssss sssp.
-                          #  sssssssssssssssssssssn sse   e.
-                                   tsssn sssss:        en
-                                                  *. =t@
-                           athsh+             +hshah#
-                                                .
-
-
-
-
-
-                             s   s.                    s
-                           sas s@shs                 pssss
-                           sas s@shs               tsh   +ss
-                             s   s-
-
-
 </pre>
 
 </td>
