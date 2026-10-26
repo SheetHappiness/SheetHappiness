@@ -1,1 +1,1 @@
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=anuraghazra&hide_title=true&show_icons=true&theme=apprentice)](https://github-stats-extended.vercel.app/api?username=anuraghazra&hide_title=true&show_icons=true&theme=apprentice)
+
