@@ -1,4 +1,4 @@
-// softsock OS v0.4 – zero-dependency README and SVG renderer.
+// softsock OS v0.4.1 – zero-dependency README and SVG renderer.
 // Usage: node scripts/build.mjs
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -205,9 +205,7 @@ function renderReadme(cfg){
     {id:"about",label:"System",number:"04",tag:"ABOUT",desc:"about & configuration",jump:"<p align=\"right\"><a href=\"#profile-files\">Open profile files ↓</a></p>"}
   ];
   const panels=screens.map((screen,i)=>`<details name="softsock-os"${i===0?" open":""}>
-<summary>
-<img src="./assets/launchers/${screen.id}.svg" alt="Open ${screen.label} – ${screen.desc}" width="96%">
-</summary>
+<summary><kbd>${({home:"⌂",files:"▤",shell:"&gt;_",about:"⚙"})[screen.id]}</kbd> <strong>${screen.label}</strong> &nbsp; <code>${screen.number} / ${screen.tag}</code> &nbsp; <sub>${({home:"~/workspace",files:"~/projects",shell:"softsock@github:~",about:"/etc/softsock"})[screen.id]}</sub></summary>
 
 <img src="./assets/screens/${screen.id}.svg" width="100%" alt="${screen.label}: expanded softsock OS desktop screen">
 
@@ -225,7 +223,7 @@ ${screen.jump}
 
 ${panels}
 
-<p align="center"><sub>One screen at a time · click a different image to switch · GitHub-native HTML</sub></p>
+<p align="center"><sub>One screen at a time · select another window to switch · GitHub-native HTML</sub></p>
 
 ---
 
