@@ -20,10 +20,10 @@ jobs:
         run: node scripts/build.mjs
       - name: Commit generated files when changed
         run: |
-          if ! git diff --quiet -- README.md assets/desktop.svg; then
+          git add README.md assets/desktop.svg assets/screens/ assets/launchers/
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md assets/desktop.svg
             git commit -m "chore(profile): render softsock OS"
             git push
           fi
