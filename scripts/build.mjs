@@ -125,8 +125,176 @@ ${list}
 <!-- END softsock OS -->
 `;
 }
+
+// Switchable README display: four OS scenes and compact previews.
+// The source remains ordinary Markdown and SVG, with no runtime JavaScript.
+function screenSvg(cfg,id,compact=false){
+ const w=compact?700:700,h=compact?224:450;
+ const a=[];const p=s=>a.push(s);
+ const labels={home:"desktop",files:"files",shell:"terminal",about:"system"};
+ const titles={home:"HOME / DESKTOP",files:"FILES / EXPLORER",shell:"SHELL / TERMINAL",about:"SYSTEM / ABOUT"};
+ const accents={home:"#c5a7f5",files:"#efc28c",shell:"#a4d9c4",about:"#a7bbf6"};
+ const accent=accents[id];
+ const fillbg=`<defs><linearGradient id="sky" x2="0.8" y2="1"><stop stop-color="#433563"/><stop offset=".53" stop-color="#6b568b"/><stop offset="1" stop-color="#392e5a"/></linearGradient><linearGradient id="glass" x2=".6" y2="1"><stop stop-color="#292441"/><stop offset="1" stop-color="#17182e"/></linearGradient><radialGradient id="glow"><stop stop-color="#eab7d6" stop-opacity=".55"/><stop offset="1" stop-color="#eab7d6" stop-opacity="0"/></radialGradient></defs>`;
+ p(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="softsock OS ${labels[id]} ${compact?"preview":"screen"}">`);
+ p(fillbg);p(rr(0,0,w,h,"#151425",15,"#a491d5"));p(rr(6,6,w-12,h-12,"#252039",11));
+ p(rr(9,9,w-18,37,"#322944",10));p(rr(9,35,w-18,11,"#322944"));
+ p(rr(20,18,17,17,accent,5));p(tt(26,32,"s",14,"#211c35",800));
+ p(tt(48,33,"softsock OS",16,"#f5eaff",700));p(tt(205,32,"/",17,"#9184b4"));
+ p(tt(225,33,labels[id],14,"#dcc5f7",500));p(rr(596,17,81,21,"#354158",11));p(`<circle cx="609" cy="28" r="4" fill="#9de1bb"/>`);p(tt(621,32,"ready",12,"#b6ebd5"));
+ p(rr(9,48,w-18,h-57,"url(#sky)",7));
+ // atmospheric skyline and star pixels
+ p(`<ellipse cx="563" cy="${compact?131:240}" rx="147" ry="121" fill="url(#glow)"/>`);
+ p(`<circle cx="588" cy="${compact?117:214}" r="${compact?27:53}" fill="#dec2df" opacity=".30"/>`);
+ for(let i=0;i<40;i++){const x=31+(i*73)%639,y=52+(i*29)%(compact?150:284);p(rr(x,y,i%7===0?3:2,2,"#eddaf5",0).replace('fill="#eddaf5"','fill="#eddaf5" opacity=".40"'));}
+ p(`<path d="M14 ${h-79}L111 ${h-170}L223 ${h-88}L315 ${h-145}L414 ${h-67}L521 ${h-135}L691 ${h-85}V${h-9}H14Z" fill="#322d53" opacity=".80"/>`);
+ p(rr(9,h-49,w-18,41,"#1d1b33")); p(rr(20,h-46,660,3,"#69567c",0));
+ if(compact){
+   p(rr(22,63,658,115,"#1d1a30",12,"#9178b7"));
+   p(rr(22,63,658,31,"#4b3a66",11));p(rr(22,85,658,10,"#4b3a66"));
+   for(let i=0;i<3;i++)p(`<circle cx="${40+i*18}" cy="78" r="4.7" fill="${["#eca8b6","#f0ca8f","#a3deba"][i]}"/>`);
+   p(rr(43,110,70,48,accent,10));p(tt(78,141,({home:"⌂",files:"[]",shell:">_",about:"*"}[id]),id==="shell"?22:24,"#242139",700,'text-anchor="middle"'));
+   p(tt(137,126,titles[id],24,"#efe5ff",700));
+   p(tt(137,154,({home:"four screens / one little system",files:"folders, projects and experiments",shell:"commands without the command line",about:"about, preferences and runtime"}[id]),16,"#bcb1db"));
+   p(rr(22,h-39,658,25,"#29233f",7));p(tt(42,h-22,"CLICK TO OPEN  /  "+id.toUpperCase(),13,accent,700));
+   p(`</svg>`);return a.join("\n")+"\n";
+ }
+ p(rr(19,60,62,327,"#201c34",8));const nav=[["H","home"],["[]","files"],[">_","shell"],["*","about"]];
+ nav.forEach(([icon,k],i)=>{const y=76+i*75;p(rr(28,y,43,48,k===id?"#625080":"#332947",8));p(tt(49,y+30,icon,19,k===id?"#ffefff":"#b6a1d8",700,'text-anchor="middle"'));});
+ // active app window
+ p(rr(100,67,572,316,"#171528",12,"#ad90d6"));p(rr(101,68,570,35,"#53406f",11));p(rr(102,94,568,12,"#53406f"));
+ for(let i=0;i<3;i++)p(`<circle cx="${118+i*17}" cy="86" r="4.5" fill="${["#eda2b3","#edd19c","#a5dfbd"][i]}"/>`);
+ p(tt(180,92,(id==="home"?"desktop / overview":id==="files"?"file manager / home":id==="shell"?"terminal / softsock@github":"system / preferences"),15,"#f3e8ff",600));p(tt(619,91,"− □ ×",15,"#ebdcf6"));
+ if(id==="home"){
+   p(rr(118,123,203,239,"#242039",8,"#635078"));p(tt(134,151,"/home/softsock",16,accent,600));
+   for(let i=0;i<4;i++){const y=182+i*42;p(rr(131,y-18,178,35,i===0?"#4c3d6d":"#2d2644",6));p(tt(142,y+5,["[] projects/","<> experiments/","T about.txt","* system/"][i],15,"#f0e4fb",500));}
+   p(rr(336,123,319,239,"#111324",7));p(tt(351,156,"softsock@github:~$ whoami",14,"#a8e5c7",600));p(tt(351,184,"builder of small systems",15,"#eee6fa"));p(tt(351,223,"softsock@github:~$ ls",14,"#a8e5c7",600));p(tt(351,250,"projects   experiments",14,"#c9b8fa"));p(tt(351,275,"about.txt  system/",14,"#c9b8fa"));p(tt(351,330,"softsock@github:~$ _",14,"#a8e5c7",600));
+ }
+ if(id==="files"){
+   p(rr(118,119,522,31,"#242039",7));p(tt(133,140,"~/home/softsock/projects/",15,"#d3bce9"));
+   p(rr(118,161,117,204,"#242039",7));p(tt(131,188,"PLACES",13,accent,700));["home","projects","notes","config"].forEach((t,i)=>{p(tt(129,220+i*38,(i===1?"> ":"  ")+t,13,i===1?"#f4e8ff":"#bcb0d6",i===1?700:400));});
+   const items=[["pi-ghost-autocomplete","autocomplete plugin"],["capri","companion tooling"],["localmem-mcp","local memory"],["tiny-scenes","small experiments"]];
+   items.forEach(([name,desc],i)=>{const x=246+(i%2)*198,y=162+Math.floor(i/2)*96;p(rr(x,y,185,85,i===0?"#42335e":"#2b2644",8,i===0?"#8267ae":"#54476f"));p(rr(x+14,y+13,29,22,"#dfb782",4));p(rr(x+15,y+10,12,8,"#dfb782",2));p(tt(x+10,y+52,name.length>18?name.slice(0,18)+"…":name,12,"#ede5fa",600));p(tt(x+10,y+70,desc,11,"#aa9dbc"));});
+ }
+ if(id==="shell"){
+   p(rr(116,117,540,246,"#101222",8));const lines=[
+     ["$ whoami", "#97e0b7"],["softsock  /  github", "#f2e9ff"],
+     ["$ ls ~/projects", "#97e0b7"],["pi-ghost-autocomplete/  capri/", "#c0b8ff"],
+     ["localmem-mcp/  tiny-scenes/", "#c0b8ff"],
+     ["$ cat now.md", "#97e0b7"],["AI tooling, interfaces, experiments", "#e9e1f5"],
+     ["$ echo $MODE", "#97e0b7"],["building strange little systems", "#f2e9ff"]
+   ];lines.forEach(([text,color],i)=>p(tt(135,145+i*22,text,15,color,i%2===0?600:400)));
+ }
+ if(id==="about"){
+   p(rr(118,120,225,245,"#25213d",8));p(rr(139,144,75,75,"#bfa6ec",16));p(tt(162,193,"s",56,"#241d3c",800));p(tt(140,250,"softsock",22,"#f3e8ff",700));p(tt(140,278,"profile edition",14,"#c8bbdb"));p(tt(140,314,"v"+cfg.version,14,"#c8bbdb"));p(tt(140,338,"read-only runtime",12,"#e5bd83"));
+   p(rr(359,120,296,245,"#201d35",8));p(tt(376,149,"ABOUT THIS SYSTEM",15,accent,700));
+   const rows=[["focus","AI tooling"],["ui","experimental"],["platform","GitHub README"],["renderer","SVG + Markdown"],["interaction","HTML details"],["status","still evolving"]];
+   rows.forEach(([key,val],i)=>{const y=181+i*30;p(tt(376,y,key,13,"#a79bbf"));p(tt(475,y,val,13,i===5?"#a5e0bd":"#f0e6ff",500));});
+ }
+ // dock
+ p(rr(200,390,315,44,"#2d2547",12,"#8b78af"));["H","[]",">_","*"].forEach((name,i)=>{const x=217+i*77;p(rr(x,397,57,30,nav[i][1]===id?"#755b97":"#42365d",7));p(tt(x+28,419,name,19,"#e9d7ff",700,'text-anchor="middle"'));});
+ p(tt(548,418,"OS v"+cfg.version,14,"#d2c2e9",500));p("</svg>");
+ return a.join("\n")+"\n";
+}
+function readmeScreens(cfg){
+  const screens=[
+    {id:"home",label:"desktop",note:"Desktop / 01",text:"Home workspace and desktop overview."},
+    {id:"files",label:"files",note:"Files / 02",text:"Project folders and experiments."},
+    {id:"shell",label:"shell",note:"Shell / 03",text:"A read-only pseudo terminal."},
+    {id:"about",label:"about",note:"System / 04",text:"Preferences and profile information."}
+  ];
+  const cells=screens.map((s,i)=>{
+    const main=`<img src="./assets/screens/${s.id}.svg" alt="${s.text}" width="100%">`;
+    const preview=`<img src="./assets/screens/${s.id}-card.svg" alt="Open ${s.label} screen" width="100%">`;
+    const linkrow=s.id==="files"?`<p><a href="#public-projects">Browse real repositories ↓</a></p>`:
+      s.id==="about"?`<p><a href="#profile-files">Read profile files ↓</a></p>`:
+      s.id==="shell"?`<p><a href="#profile-files">Inspect shell outputs ↓</a></p>`:"";
+    return `<td width="50%" valign="top">
+<details name="softsock-os"${i===0?" open":""}>
+<summary><b>${s.note}</b>${preview}</summary>
+${main}
+${linkrow}
+</details>
+</td>`;
+  });
+  const projectRows=cfg.projects.map(p=>`| [\`${p.name}/\`](${p.url}) | ${p.description} |`).join("\n");
+  return `<!-- Generated by scripts/build.mjs; edit config/desktop.json or the renderer, not this file. -->
+<div align="center">
+
+<h2>softsock OS <sub>v${cfg.version}</sub></h2>
+<sub>select a screen to explore / click another to switch</sub>
+
+</div>
+
+<table width="100%">
+<tr>
+${cells[0]}
+${cells[1]}
+</tr>
+<tr>
+${cells[2]}
+${cells[3]}
+</tr>
+</table>
+
+<p align="center"><sub>Read-only desktop. Screens expand with native HTML, not JavaScript.</sub></p>
+
+---
+
+### public-projects
+
+<details>
+<summary><b>~/home/softsock/projects/</b> · public directories</summary>
+
+| folder | description |
+| :-- | :-- |
+${projectRows}
+
+</details>
+
+### profile-files
+
+<details>
+<summary><b>about.txt</b></summary>
+
+\`\`\`txt
+user: ${cfg.handle}
+host: github
+mode: ${cfg.tagline}
+${cfg.description}
+\`\`\`
+
+</details>
+
+<details>
+<summary><b>stack.json</b></summary>
+
+\`\`\`json
+{
+  "focus": ${JSON.stringify(cfg.focus)},
+  "interests": ["AI agents", "automation", "interface design"],
+  "runtime": "GitHub-flavored Markdown"
+}
+\`\`\`
+
+</details>
+
+<details>
+<summary><b>contact.link</b></summary>
+
+[github.com/${cfg.owner}](https://github.com/${cfg.owner})
+
+</details>
+`;
+}
+
 const cfg=JSON.parse(readFileSync(resolve(root,"config/desktop.json"),"utf8"));
 mkdirSync(resolve(root,"assets"),{recursive:true});
 writeFileSync(resolve(root,"assets/desktop.svg"),svg(cfg)+"\n","utf8");
-writeFileSync(resolve(root,"README.md"),readme(cfg),"utf8");
+mkdirSync(resolve(root,"assets/screens"),{recursive:true});
+for (const id of ["home","files","shell","about"]) {
+  writeFileSync(resolve(root,`assets/screens/${id}.svg`),screenSvg(cfg,id,false),"utf8");
+  writeFileSync(resolve(root,`assets/screens/${id}-card.svg`),screenSvg(cfg,id,true),"utf8");
+}
+writeFileSync(resolve(root,"README.md"),readmeScreens(cfg),"utf8");
 console.log("Built softsock OS v"+cfg.version);

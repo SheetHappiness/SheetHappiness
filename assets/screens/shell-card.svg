@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="224" viewBox="0 0 700 224" role="img" aria-label="softsock OS terminal preview">
+<defs><linearGradient id="sky" x2="0.8" y2="1"><stop stop-color="#433563"/><stop offset=".53" stop-color="#6b568b"/><stop offset="1" stop-color="#392e5a"/></linearGradient><linearGradient id="glass" x2=".6" y2="1"><stop stop-color="#292441"/><stop offset="1" stop-color="#17182e"/></linearGradient><radialGradient id="glow"><stop stop-color="#eab7d6" stop-opacity=".55"/><stop offset="1" stop-color="#eab7d6" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="700" height="224" rx="15" fill="#151425" stroke="#a491d5" stroke-width="1.5"/>
+<rect x="6" y="6" width="688" height="212" rx="11" fill="#252039"/>
+<rect x="9" y="9" width="682" height="37" rx="10" fill="#322944"/>
+<rect x="9" y="35" width="682" height="11" rx="0" fill="#322944"/>
+<rect x="20" y="18" width="17" height="17" rx="5" fill="#a4d9c4"/>
+<text x="26" y="32" fill="#211c35" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="800" >s</text>
+<text x="48" y="33" fill="#f5eaff" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="700" >softsock OS</text>
+<text x="205" y="32" fill="#9184b4" font-family="'DejaVu Sans Mono',monospace" font-size="17" font-weight="400" >/</text>
+<text x="225" y="33" fill="#dcc5f7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="500" >terminal</text>
+<rect x="596" y="17" width="81" height="21" rx="11" fill="#354158"/>
+<circle cx="609" cy="28" r="4" fill="#9de1bb"/>
+<text x="621" y="32" fill="#b6ebd5" font-family="'DejaVu Sans Mono',monospace" font-size="12" font-weight="400" >ready</text>
+<rect x="9" y="48" width="682" height="167" rx="7" fill="url(#sky)"/>
+<ellipse cx="563" cy="131" rx="147" ry="121" fill="url(#glow)"/>
+<circle cx="588" cy="117" r="27" fill="#dec2df" opacity=".30"/>
+<rect x="31" y="52" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="104" y="81" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="177" y="110" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="250" y="139" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="323" y="168" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="396" y="197" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="469" y="76" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="542" y="105" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="615" y="134" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="49" y="163" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="122" y="192" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="195" y="71" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="268" y="100" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="341" y="129" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="414" y="158" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="487" y="187" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="560" y="66" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="633" y="95" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="67" y="124" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="140" y="153" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="213" y="182" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="286" y="61" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="359" y="90" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="432" y="119" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="505" y="148" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="578" y="177" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="651" y="56" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="85" y="85" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="158" y="114" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="231" y="143" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="304" y="172" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="377" y="201" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="450" y="80" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="523" y="109" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="596" y="138" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="669" y="167" width="3" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="103" y="196" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="176" y="75" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="249" y="104" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<rect x="322" y="133" width="2" height="2" rx="0" fill="#eddaf5" opacity=".40"/>
+<path d="M14 145L111 54L223 136L315 79L414 157L521 89L691 139V215H14Z" fill="#322d53" opacity=".80"/>
+<rect x="9" y="175" width="682" height="41" rx="0" fill="#1d1b33"/>
+<rect x="20" y="178" width="660" height="3" rx="0" fill="#69567c"/>
+<rect x="22" y="63" width="658" height="115" rx="12" fill="#1d1a30" stroke="#9178b7" stroke-width="1.5"/>
+<rect x="22" y="63" width="658" height="31" rx="11" fill="#4b3a66"/>
+<rect x="22" y="85" width="658" height="10" rx="0" fill="#4b3a66"/>
+<circle cx="40" cy="78" r="4.7" fill="#eca8b6"/>
+<circle cx="58" cy="78" r="4.7" fill="#f0ca8f"/>
+<circle cx="76" cy="78" r="4.7" fill="#a3deba"/>
+<rect x="43" y="110" width="70" height="48" rx="10" fill="#a4d9c4"/>
+<text x="78" y="141" fill="#242139" font-family="'DejaVu Sans Mono',monospace" font-size="22" font-weight="700" text-anchor="middle">&gt;_</text>
+<text x="137" y="126" fill="#efe5ff" font-family="'DejaVu Sans Mono',monospace" font-size="24" font-weight="700" >SHELL / TERMINAL</text>
+<text x="137" y="154" fill="#bcb1db" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="400" >commands without the command line</text>
+<rect x="22" y="185" width="658" height="25" rx="7" fill="#29233f"/>
+<text x="42" y="202" fill="#a4d9c4" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" >CLICK TO OPEN  /  SHELL</text>
+</svg>
