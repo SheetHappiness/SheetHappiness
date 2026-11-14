@@ -43,6 +43,24 @@
 
 ---
 
+### Hypercomputer
+
+<sub>v0.1 · the smallest computer that should not work in a GitHub README</sub>
+
+<div align="center">
+<img src="./assets/hypercomputer/a1-b2.svg" alt="Hypercomputer: 2-bit A=1, B=2; select an instruction below" width="100%">
+</div>
+
+**Execute a command (starts from A=1, B=2):**
+
+[**INC A**](./hypercomputer/states/a2-b2.md) &nbsp; · &nbsp; [**DEC B**](./hypercomputer/states/a1-b1.md) &nbsp; · &nbsp; [**ADD**](./hypercomputer/states/a3-b2.md) &nbsp; · &nbsp; [**SWAP**](./hypercomputer/states/a2-b1.md) &nbsp; · &nbsp; [**RESET**](./hypercomputer/states/a0-b0.md)
+
+[Open the machine and continue computing](./hypercomputer/states/a1-b2.md) · [How it works](./hypercomputer/README.md)
+
+<sub>Clicking a command navigates to its precomputed state. Within the state page you can keep computing. No JavaScript, no Issues, no server.</sub>
+
+---
+
 ### public-projects
 
 <details>

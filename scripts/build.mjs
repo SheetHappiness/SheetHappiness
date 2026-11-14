@@ -2,6 +2,7 @@
 // Usage: node scripts/build.mjs
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { renderProfilePanel, generateHyperFiles } from "./hypercomputer.mjs";
 import { resolve, dirname } from "node:path";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 function esc(v){return String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
@@ -326,5 +327,13 @@ for (const id of ["home","files","shell","about"]) {
   writeFileSync(resolve(root,`assets/screens/${id}.svg`),screenSvg(cfg,id,false),"utf8");
   writeFileSync(resolve(root,`assets/screens/${id}-card.svg`),screenSvg(cfg,id,true),"utf8");
 }
-writeFileSync(resolve(root,"README.md"),renderReadme(cfg),"utf8");
+const osReadme = renderReadme(cfg);
+const target = "\n---\n\n### public-projects";
+if (!osReadme.includes(target)) throw new Error("Profile insertion anchor missing");
+const generatedReadme = osReadme.replace(target,"\n---\n\n"+renderProfilePanel()+target);
+writeFileSync(resolve(root,"README.md"),generatedReadme,"utf8");
+for (const file of generateHyperFiles()) {
+  mkdirSync(dirname(resolve(root,file.path)),{recursive:true});
+  writeFileSync(resolve(root,file.path),file.content,"utf8");
+}
 console.log("Built softsock OS v"+cfg.version);

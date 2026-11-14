@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - 'scripts/build.mjs'
+      - 'scripts/hypercomputer.mjs'
+      - 'tests/hypercomputer.test.mjs'
       - 'config/desktop.json'
       - '.github/workflows/render.yml'
   workflow_dispatch:
@@ -16,11 +18,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Test Hypercomputer state graph
+        run: node --test tests/hypercomputer.test.mjs
       - name: Generate profile
         run: node scripts/build.mjs
       - name: Commit generated files when changed
         run: |
-          git add README.md assets/desktop.svg assets/screens/ assets/launchers/
+          git add README.md assets/desktop.svg assets/screens/ assets/launchers/ hypercomputer/ assets/hypercomputer/
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
