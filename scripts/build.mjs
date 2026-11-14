@@ -1,4 +1,4 @@
-// softsock OS v0.1 – zero-dependency README and SVG renderer.
+// softsock OS v0.4 – zero-dependency README and SVG renderer.
 // Usage: node scripts/build.mjs
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -206,8 +206,7 @@ function renderReadme(cfg){
   ];
   const panels=screens.map((screen,i)=>`<details name="softsock-os"${i===0?" open":""}>
 <summary>
-<img src="./assets/launchers/${screen.id}.svg" alt="${screen.label} icon" width="66" align="middle">
-<b>${screen.label} / ${screen.number}</b> &nbsp;·&nbsp; ${screen.desc}
+<img src="./assets/launchers/${screen.id}.svg" alt="Open ${screen.label} – ${screen.desc}" width="96%">
 </summary>
 
 <img src="./assets/screens/${screen.id}.svg" width="100%" alt="${screen.label}: expanded softsock OS desktop screen">
@@ -226,7 +225,7 @@ ${screen.jump}
 
 ${panels}
 
-<p align="center"><sub>One screen at a time · click a different title to switch · GitHub-native HTML</sub></p>
+<p align="center"><sub>One screen at a time · click a different image to switch · GitHub-native HTML</sub></p>
 
 ---
 
@@ -277,16 +276,42 @@ ${cfg.description}
 `;
 }
 function launcherIcon(cfg,id) {
-  const symbols={home:"H",files:"[]",shell:">_",about:"*"};
-  const colors={home:"#c5a5ef",files:"#f0be88",shell:"#a6e4c7",about:"#a6bdfa"};
-  const titles={home:"HOME",files:"FILES",shell:"SHELL",about:"SYSTEM"};
-  const accent=colors[id];
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 72" width="96" height="72" role="img" aria-label="${titles[id]} app icon">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55416f"/><stop offset="1" stop-color="#242039"/></linearGradient></defs>
-  <rect x="3" y="3" width="90" height="66" rx="14" fill="url(#bg)" stroke="#9b82bb" stroke-width="2"/>
-  <rect x="11" y="11" width="74" height="50" rx="9" fill="#1b192e" stroke="#655074"/>
-  <rect x="23" y="19" width="50" height="35" rx="7" fill="${accent}"/>
-  <text x="48" y="44" fill="#201c33" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="${id==="files"?19:23}" font-weight="bold">${symbols[id]}</text>
+  const types={
+    home:{label:"Desktop",tag:"01 / HOME",path:"~/workspace",glyph:"H",accent:"#C9ADF4",soft:"#E8D9FF",windows:["file manager","shell / active","workspace"]},
+    files:{label:"Files",tag:"02 / EXPLORER",path:"~/projects",glyph:"[]",accent:"#F0C48D",soft:"#FFEBCA",windows:["projects/","experiments/","about.txt"]},
+    shell:{label:"Shell",tag:"03 / TERMINAL",path:"softsock@github:~",glyph:"&gt;_",accent:"#A5E1C7",soft:"#D3F5E4",windows:["$ whoami","$ ls ~/projects","$ _"]},
+    about:{label:"System",tag:"04 / ABOUT",path:"/etc/softsock",glyph:"*",accent:"#B6C3FA",soft:"#E1E6FF",windows:["version / "+cfg.version,"profile / ready","read-only mode"]}
+  };
+  if(!Object.hasOwn(types,id)) throw Error("Unknown OS screen: "+id);
+  const a=types[id];
+  const esc=x=>String(x).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  // No scripts, remote assets, stylesheets, or SVG links: works as a GitHub-hosted image.
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="114" viewBox="0 0 900 114" role="img" aria-label="Open ${a.label} in softsock OS">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#3D3056"/><stop offset=".55" stop-color="#28213D"/><stop offset="1" stop-color="#1A192E"/>
+  </linearGradient>
+  <linearGradient id="app" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="${a.soft}"/><stop offset="1" stop-color="${a.accent}"/>
+  </linearGradient>
+</defs>
+<rect x="2" y="2" width="896" height="110" rx="17" fill="url(#panel)" stroke="#8570A8" stroke-width="2"/>
+<rect x="16" y="18" width="80" height="78" rx="15" fill="#151525" stroke="#74618F" stroke-width="1.5"/>
+<rect x="26" y="27" width="60" height="60" rx="12" fill="url(#app)"/>
+<text x="56" y="66" text-anchor="middle" font-family="DejaVu Sans Mono,monospace" font-size="${id==="files"?28:31}" font-weight="700" fill="#242139">${a.glyph}</text>
+<text x="118" y="35" font-family="DejaVu Sans Mono,monospace" font-size="14" font-weight="700" letter-spacing="1.4" fill="${a.accent}">${a.tag}</text>
+<text x="118" y="69" font-family="DejaVu Sans,Verdana,sans-serif" font-size="31" font-weight="700" fill="#F3EAFB">${a.label}</text>
+<text x="121" y="91" font-family="DejaVu Sans Mono,monospace" font-size="14" fill="#B9ACD3">${esc(a.path)}</text>
+<rect x="510" y="19" width="319" height="76" rx="10" fill="#171729" stroke="#514363" stroke-width="1"/>
+<rect x="511" y="20" width="317" height="20" rx="9" fill="#4D3A68"/>
+<rect x="511" y="32" width="317" height="9" fill="#4D3A68"/>
+<circle cx="526" cy="29" r="3" fill="#EAA4BA"/><circle cx="538" cy="29" r="3" fill="#F1D39B"/><circle cx="550" cy="29" r="3" fill="#A1DABA"/>
+<text x="568" y="33" font-family="DejaVu Sans Mono,monospace" font-size="11" fill="#EDDEF8">softsock/${id}</text>
+<text x="528" y="55" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="${a.soft}">${esc(a.windows[0])}</text>
+<text x="528" y="70" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#D2C2E4">${esc(a.windows[1])}</text>
+<text x="528" y="85" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#AFA2C6">${esc(a.windows[2])}</text>
+<circle cx="865" cy="56" r="21" fill="#4C3B67" stroke="#8C75B0" stroke-width="1"/>
+<path d="M859 46 L870 56 L859 66" fill="none" stroke="${a.accent}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `;
 }

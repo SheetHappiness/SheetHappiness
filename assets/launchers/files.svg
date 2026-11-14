@@ -1,7 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 72" width="96" height="72" role="img" aria-label="FILES app icon">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55416f"/><stop offset="1" stop-color="#242039"/></linearGradient></defs>
-  <rect x="3" y="3" width="90" height="66" rx="14" fill="url(#bg)" stroke="#9b82bb" stroke-width="2"/>
-  <rect x="11" y="11" width="74" height="50" rx="9" fill="#1b192e" stroke="#655074"/>
-  <rect x="23" y="19" width="50" height="35" rx="7" fill="#f0be88"/>
-  <text x="48" y="44" fill="#201c33" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="19" font-weight="bold">[]</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="114" viewBox="0 0 900 114" role="img" aria-label="Open Files in softsock OS">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#3D3056"/><stop offset=".55" stop-color="#28213D"/><stop offset="1" stop-color="#1A192E"/>
+  </linearGradient>
+  <linearGradient id="app" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFEBCA"/><stop offset="1" stop-color="#F0C48D"/>
+  </linearGradient>
+</defs>
+<rect x="2" y="2" width="896" height="110" rx="17" fill="url(#panel)" stroke="#8570A8" stroke-width="2"/>
+<rect x="16" y="18" width="80" height="78" rx="15" fill="#151525" stroke="#74618F" stroke-width="1.5"/>
+<rect x="26" y="27" width="60" height="60" rx="12" fill="url(#app)"/>
+<text x="56" y="66" text-anchor="middle" font-family="DejaVu Sans Mono,monospace" font-size="28" font-weight="700" fill="#242139">[]</text>
+<text x="118" y="35" font-family="DejaVu Sans Mono,monospace" font-size="14" font-weight="700" letter-spacing="1.4" fill="#F0C48D">02 / EXPLORER</text>
+<text x="118" y="69" font-family="DejaVu Sans,Verdana,sans-serif" font-size="31" font-weight="700" fill="#F3EAFB">Files</text>
+<text x="121" y="91" font-family="DejaVu Sans Mono,monospace" font-size="14" fill="#B9ACD3">~/projects</text>
+<rect x="510" y="19" width="319" height="76" rx="10" fill="#171729" stroke="#514363" stroke-width="1"/>
+<rect x="511" y="20" width="317" height="20" rx="9" fill="#4D3A68"/>
+<rect x="511" y="32" width="317" height="9" fill="#4D3A68"/>
+<circle cx="526" cy="29" r="3" fill="#EAA4BA"/><circle cx="538" cy="29" r="3" fill="#F1D39B"/><circle cx="550" cy="29" r="3" fill="#A1DABA"/>
+<text x="568" y="33" font-family="DejaVu Sans Mono,monospace" font-size="11" fill="#EDDEF8">softsock/files</text>
+<text x="528" y="55" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#FFEBCA">projects/</text>
+<text x="528" y="70" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#D2C2E4">experiments/</text>
+<text x="528" y="85" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#AFA2C6">about.txt</text>
+<circle cx="865" cy="56" r="21" fill="#4C3B67" stroke="#8C75B0" stroke-width="1"/>
+<path d="M859 46 L870 56 L859 66" fill="none" stroke="#F0C48D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
