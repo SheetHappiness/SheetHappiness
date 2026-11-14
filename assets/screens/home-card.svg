@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="224" viewBox="0 0 700 224" role="img" aria-label="softsock OS desktop preview">
 <defs><linearGradient id="sky" x2="0.8" y2="1"><stop stop-color="#433563"/><stop offset=".53" stop-color="#6b568b"/><stop offset="1" stop-color="#392e5a"/></linearGradient><linearGradient id="glass" x2=".6" y2="1"><stop stop-color="#292441"/><stop offset="1" stop-color="#17182e"/></linearGradient><radialGradient id="glow"><stop stop-color="#eab7d6" stop-opacity=".55"/><stop offset="1" stop-color="#eab7d6" stop-opacity="0"/></radialGradient></defs>
-<rect x="0" y="0" width="700" height="224" rx="15" fill="#151425" stroke="#a491d5" stroke-width="1.5"/>
+<rect x="0" y="0" width="700" height="224" rx="15" fill="#151425" stroke="#a491d5" stroke-width="1"/>
 <rect x="6" y="6" width="688" height="212" rx="11" fill="#252039"/>
 <rect x="9" y="9" width="682" height="37" rx="10" fill="#322944"/>
 <rect x="9" y="35" width="682" height="11" rx="0" fill="#322944"/>
 <rect x="20" y="18" width="17" height="17" rx="5" fill="#c5a7f5"/>
-<text x="26" y="32" fill="#211c35" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="800" >s</text>
-<text x="48" y="33" fill="#f5eaff" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="700" >softsock OS</text>
-<text x="205" y="32" fill="#9184b4" font-family="'DejaVu Sans Mono',monospace" font-size="17" font-weight="400" >/</text>
-<text x="225" y="33" fill="#dcc5f7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="500" >desktop</text>
+<text x="26" y="32" fill="#211c35" font-size="14" font-weight="800" font-family="'DejaVu Sans','Verdana',sans-serif" >s</text>
+<text x="48" y="33" fill="#f5eaff" font-size="16" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock OS</text>
+<text x="205" y="32" fill="#9184b4" font-size="17" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >/</text>
+<text x="225" y="33" fill="#dcc5f7" font-size="14" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >desktop</text>
 <rect x="596" y="17" width="81" height="21" rx="11" fill="#354158"/>
 <circle cx="609" cy="28" r="4" fill="#9de1bb"/>
-<text x="621" y="32" fill="#b6ebd5" font-family="'DejaVu Sans Mono',monospace" font-size="12" font-weight="400" >ready</text>
+<text x="621" y="32" fill="#b6ebd5" font-size="12" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >ready</text>
 <rect x="9" y="48" width="682" height="167" rx="7" fill="url(#sky)"/>
 <ellipse cx="563" cy="131" rx="147" ry="121" fill="url(#glow)"/>
 <circle cx="588" cy="117" r="27" fill="#dec2df" opacity=".30"/>
@@ -58,16 +58,16 @@
 <path d="M14 145L111 54L223 136L315 79L414 157L521 89L691 139V215H14Z" fill="#322d53" opacity=".80"/>
 <rect x="9" y="175" width="682" height="41" rx="0" fill="#1d1b33"/>
 <rect x="20" y="178" width="660" height="3" rx="0" fill="#69567c"/>
-<rect x="22" y="63" width="658" height="115" rx="12" fill="#1d1a30" stroke="#9178b7" stroke-width="1.5"/>
+<rect x="22" y="63" width="658" height="115" rx="12" fill="#1d1a30" stroke="#9178b7" stroke-width="1"/>
 <rect x="22" y="63" width="658" height="31" rx="11" fill="#4b3a66"/>
 <rect x="22" y="85" width="658" height="10" rx="0" fill="#4b3a66"/>
 <circle cx="40" cy="78" r="4.7" fill="#eca8b6"/>
 <circle cx="58" cy="78" r="4.7" fill="#f0ca8f"/>
 <circle cx="76" cy="78" r="4.7" fill="#a3deba"/>
 <rect x="43" y="110" width="70" height="48" rx="10" fill="#c5a7f5"/>
-<text x="78" y="141" fill="#242139" font-family="'DejaVu Sans Mono',monospace" font-size="24" font-weight="700" text-anchor="middle">⌂</text>
-<text x="137" y="126" fill="#efe5ff" font-family="'DejaVu Sans Mono',monospace" font-size="24" font-weight="700" >HOME / DESKTOP</text>
-<text x="137" y="154" fill="#bcb1db" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="400" >four screens / one little system</text>
+<text x="78" y="141" fill="#242139" font-size="24" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >⌂</text>
+<text x="137" y="126" fill="#efe5ff" font-size="24" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >HOME / DESKTOP</text>
+<text x="137" y="154" fill="#bcb1db" font-size="16" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >four screens / one little system</text>
 <rect x="22" y="185" width="658" height="25" rx="7" fill="#29233f"/>
-<text x="42" y="202" fill="#c5a7f5" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" >CLICK TO OPEN  /  HOME</text>
+<text x="42" y="202" fill="#c5a7f5" font-size="13" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >CLICK TO OPEN  /  HOME</text>
 </svg>

@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450" role="img" aria-label="softsock OS desktop screen">
 <defs><linearGradient id="sky" x2="0.8" y2="1"><stop stop-color="#433563"/><stop offset=".53" stop-color="#6b568b"/><stop offset="1" stop-color="#392e5a"/></linearGradient><linearGradient id="glass" x2=".6" y2="1"><stop stop-color="#292441"/><stop offset="1" stop-color="#17182e"/></linearGradient><radialGradient id="glow"><stop stop-color="#eab7d6" stop-opacity=".55"/><stop offset="1" stop-color="#eab7d6" stop-opacity="0"/></radialGradient></defs>
-<rect x="0" y="0" width="700" height="450" rx="15" fill="#151425" stroke="#a491d5" stroke-width="1.5"/>
+<rect x="0" y="0" width="700" height="450" rx="15" fill="#151425" stroke="#a491d5" stroke-width="1"/>
 <rect x="6" y="6" width="688" height="438" rx="11" fill="#252039"/>
 <rect x="9" y="9" width="682" height="37" rx="10" fill="#322944"/>
 <rect x="9" y="35" width="682" height="11" rx="0" fill="#322944"/>
 <rect x="20" y="18" width="17" height="17" rx="5" fill="#c5a7f5"/>
-<text x="26" y="32" fill="#211c35" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="800" >s</text>
-<text x="48" y="33" fill="#f5eaff" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="700" >softsock OS</text>
-<text x="205" y="32" fill="#9184b4" font-family="'DejaVu Sans Mono',monospace" font-size="17" font-weight="400" >/</text>
-<text x="225" y="33" fill="#dcc5f7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="500" >desktop</text>
+<text x="26" y="32" fill="#211c35" font-size="14" font-weight="800" font-family="'DejaVu Sans','Verdana',sans-serif" >s</text>
+<text x="48" y="33" fill="#f5eaff" font-size="16" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock OS</text>
+<text x="205" y="32" fill="#9184b4" font-size="17" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >/</text>
+<text x="225" y="33" fill="#dcc5f7" font-size="14" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >desktop</text>
 <rect x="596" y="17" width="81" height="21" rx="11" fill="#354158"/>
 <circle cx="609" cy="28" r="4" fill="#9de1bb"/>
-<text x="621" y="32" fill="#b6ebd5" font-family="'DejaVu Sans Mono',monospace" font-size="12" font-weight="400" >ready</text>
+<text x="621" y="32" fill="#b6ebd5" font-size="12" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >ready</text>
 <rect x="9" y="48" width="682" height="393" rx="7" fill="url(#sky)"/>
 <ellipse cx="563" cy="240" rx="147" ry="121" fill="url(#glow)"/>
 <circle cx="588" cy="214" r="53" fill="#dec2df" opacity=".30"/>
@@ -60,46 +60,46 @@
 <rect x="20" y="404" width="660" height="3" rx="0" fill="#69567c"/>
 <rect x="19" y="60" width="62" height="327" rx="8" fill="#201c34"/>
 <rect x="28" y="76" width="43" height="48" rx="8" fill="#625080"/>
-<text x="49" y="106" fill="#ffefff" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">H</text>
+<text x="49" y="106" fill="#ffefff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >H</text>
 <rect x="28" y="151" width="43" height="48" rx="8" fill="#332947"/>
-<text x="49" y="181" fill="#b6a1d8" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">[]</text>
+<text x="49" y="181" fill="#b6a1d8" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >[]</text>
 <rect x="28" y="226" width="43" height="48" rx="8" fill="#332947"/>
-<text x="49" y="256" fill="#b6a1d8" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">&gt;_</text>
+<text x="49" y="256" fill="#b6a1d8" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >&gt;_</text>
 <rect x="28" y="301" width="43" height="48" rx="8" fill="#332947"/>
-<text x="49" y="331" fill="#b6a1d8" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">*</text>
-<rect x="100" y="67" width="572" height="316" rx="12" fill="#171528" stroke="#ad90d6" stroke-width="1.5"/>
+<text x="49" y="331" fill="#b6a1d8" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >*</text>
+<rect x="100" y="67" width="572" height="316" rx="12" fill="#171528" stroke="#ad90d6" stroke-width="1"/>
 <rect x="101" y="68" width="570" height="35" rx="11" fill="#53406f"/>
 <rect x="102" y="94" width="568" height="12" rx="0" fill="#53406f"/>
 <circle cx="118" cy="86" r="4.5" fill="#eda2b3"/>
 <circle cx="135" cy="86" r="4.5" fill="#edd19c"/>
 <circle cx="152" cy="86" r="4.5" fill="#a5dfbd"/>
-<text x="180" y="92" fill="#f3e8ff" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="600" >desktop / overview</text>
-<text x="619" y="91" fill="#ebdcf6" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="400" >− □ ×</text>
-<rect x="118" y="123" width="203" height="239" rx="8" fill="#242039" stroke="#635078" stroke-width="1.5"/>
-<text x="134" y="151" fill="#c5a7f5" font-family="'DejaVu Sans Mono',monospace" font-size="16" font-weight="600" >/home/softsock</text>
+<text x="180" y="92" fill="#f3e8ff" font-size="15" font-weight="600" font-family="'DejaVu Sans','Verdana',sans-serif" >desktop / overview</text>
+<text x="619" y="91" fill="#ebdcf6" font-size="15" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >− □ ×</text>
+<rect x="118" y="123" width="203" height="239" rx="8" fill="#242039" stroke="#635078" stroke-width="1"/>
+<text x="134" y="151" fill="#c5a7f5" font-size="16" font-weight="600" font-family="'DejaVu Sans','Verdana',sans-serif" >/home/softsock</text>
 <rect x="131" y="164" width="178" height="35" rx="6" fill="#4c3d6d"/>
-<text x="142" y="187" fill="#f0e4fb" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="500" >[] projects/</text>
+<text x="142" y="187" fill="#f0e4fb" font-size="15" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >[] projects/</text>
 <rect x="131" y="206" width="178" height="35" rx="6" fill="#2d2644"/>
-<text x="142" y="229" fill="#f0e4fb" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="500" >&lt;&gt; experiments/</text>
+<text x="142" y="229" fill="#f0e4fb" font-size="15" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >&lt;&gt; experiments/</text>
 <rect x="131" y="248" width="178" height="35" rx="6" fill="#2d2644"/>
-<text x="142" y="271" fill="#f0e4fb" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="500" >T about.txt</text>
+<text x="142" y="271" fill="#f0e4fb" font-size="15" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >T about.txt</text>
 <rect x="131" y="290" width="178" height="35" rx="6" fill="#2d2644"/>
-<text x="142" y="313" fill="#f0e4fb" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="500" >* system/</text>
+<text x="142" y="313" fill="#f0e4fb" font-size="15" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >* system/</text>
 <rect x="336" y="123" width="319" height="239" rx="7" fill="#111324"/>
-<text x="351" y="156" fill="#a8e5c7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="600" >softsock@github:~$ whoami</text>
-<text x="351" y="184" fill="#eee6fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="400" >builder of small systems</text>
-<text x="351" y="223" fill="#a8e5c7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="600" >softsock@github:~$ ls</text>
-<text x="351" y="250" fill="#c9b8fa" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="400" >projects   experiments</text>
-<text x="351" y="275" fill="#c9b8fa" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="400" >about.txt  system/</text>
-<text x="351" y="330" fill="#a8e5c7" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="600" >softsock@github:~$ _</text>
-<rect x="200" y="390" width="315" height="44" rx="12" fill="#2d2547" stroke="#8b78af" stroke-width="1.5"/>
+<text x="351" y="156" fill="#a8e5c7" font-size="14" font-weight="600" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock@github:~$ whoami</text>
+<text x="351" y="184" fill="#eee6fa" font-size="15" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >builder of small systems</text>
+<text x="351" y="223" fill="#a8e5c7" font-size="14" font-weight="600" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock@github:~$ ls</text>
+<text x="351" y="250" fill="#c9b8fa" font-size="14" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >projects   experiments</text>
+<text x="351" y="275" fill="#c9b8fa" font-size="14" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >about.txt  system/</text>
+<text x="351" y="330" fill="#a8e5c7" font-size="14" font-weight="600" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock@github:~$ _</text>
+<rect x="200" y="390" width="315" height="44" rx="12" fill="#2d2547" stroke="#8b78af" stroke-width="1"/>
 <rect x="217" y="397" width="57" height="30" rx="7" fill="#755b97"/>
-<text x="245" y="419" fill="#e9d7ff" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">H</text>
+<text x="245" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >H</text>
 <rect x="294" y="397" width="57" height="30" rx="7" fill="#42365d"/>
-<text x="322" y="419" fill="#e9d7ff" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">[]</text>
+<text x="322" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >[]</text>
 <rect x="371" y="397" width="57" height="30" rx="7" fill="#42365d"/>
-<text x="399" y="419" fill="#e9d7ff" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">&gt;_</text>
+<text x="399" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >&gt;_</text>
 <rect x="448" y="397" width="57" height="30" rx="7" fill="#42365d"/>
-<text x="476" y="419" fill="#e9d7ff" font-family="'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" text-anchor="middle">*</text>
-<text x="548" y="418" fill="#d2c2e9" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="500" >OS v0.1.0</text>
+<text x="476" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >*</text>
+<text x="548" y="418" fill="#d2c2e9" font-size="14" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >OS v0.3.0</text>
 </svg>
