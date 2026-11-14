@@ -1,0 +1,35 @@
+{
+  "systemName": "softsock OS",
+  "version": "0.1.0",
+  "owner": "SheetHappiness",
+  "handle": "softsock",
+  "tagline": "building strange little systems",
+  "description": "AI tooling, experimental interfaces, automation and small things that feel alive.",
+  "focus": [
+    "agent tooling",
+    "experimental interfaces",
+    "creative software"
+  ],
+  "projects": [
+    {
+      "name": "pi-ghost-autocomplete",
+      "url": "https://github.com/SheetHappiness/pi-ghost-autocomplete",
+      "description": "inline suggestions for the Pi terminal"
+    },
+    {
+      "name": "capri",
+      "url": "https://github.com/SheetHappiness/capri",
+      "description": "desktop-companion experiments"
+    },
+    {
+      "name": "localmem-mcp",
+      "url": "https://github.com/SheetHappiness/localmem-mcp",
+      "description": "memory tooling experiments"
+    },
+    {
+      "name": "tiny-scenes",
+      "url": "https://github.com/SheetHappiness/tiny-scenes",
+      "description": "small visual experiments"
+    }
+  ]
+}
