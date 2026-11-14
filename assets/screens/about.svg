@@ -80,7 +80,7 @@
 <text x="162" y="193" fill="#241d3c" font-size="56" font-weight="800" font-family="'DejaVu Sans','Verdana',sans-serif" >s</text>
 <text x="140" y="250" fill="#f3e8ff" font-size="22" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock</text>
 <text x="140" y="278" fill="#c8bbdb" font-size="14" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >profile edition</text>
-<text x="140" y="314" fill="#c8bbdb" font-size="14" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >v0.3.0</text>
+<text x="140" y="314" fill="#c8bbdb" font-size="14" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >v0.4.0</text>
 <text x="140" y="338" fill="#e5bd83" font-size="12" font-weight="400" font-family="'DejaVu Sans','Verdana',sans-serif" >read-only runtime</text>
 <rect x="359" y="120" width="296" height="245" rx="8" fill="#201d35"/>
 <text x="376" y="149" fill="#a7bbf6" font-size="15" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >ABOUT THIS SYSTEM</text>
@@ -105,5 +105,5 @@
 <text x="399" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >&gt;_</text>
 <rect x="448" y="397" width="57" height="30" rx="7" fill="#755b97"/>
 <text x="476" y="419" fill="#e9d7ff" font-size="19" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >*</text>
-<text x="548" y="418" fill="#d2c2e9" font-size="14" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >OS v0.3.0</text>
+<text x="548" y="418" fill="#d2c2e9" font-size="14" font-weight="500" font-family="'DejaVu Sans','Verdana',sans-serif" >OS v0.4.0</text>
 </svg>

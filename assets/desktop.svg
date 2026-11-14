@@ -300,7 +300,7 @@
 <rect x="32" y="25" width="31" height="31" rx="8" fill="#c4a2ee"/>
 <text x="39" y="46" fill="#261b3c" font-size="25" font-weight="800" font-family="'DejaVu Sans','Verdana',sans-serif" >s</text>
 <text x="78" y="45" fill="#f5edff" font-size="22" font-weight="700" font-family="'DejaVu Sans','Verdana',sans-serif" >softsock OS</text>
-<text x="229" y="44" fill="#b7a3d6" font-size="14" font-weight="500" font-family="'DejaVu Sans Mono','Consolas',monospace" >profile edition  /  v0.3.0</text>
+<text x="229" y="44" fill="#b7a3d6" font-size="14" font-weight="500" font-family="'DejaVu Sans Mono','Consolas',monospace" >profile edition  /  v0.4.0</text>
 <rect x="935" y="29" width="78" height="26" rx="13" fill="#323850"/>
 <circle cx="953" cy="42" r="5" fill="#9bdfb7"/>
 <text x="965" y="47" fill="#c8f3d7" font-size="14" font-weight="600" font-family="'DejaVu Sans Mono','Consolas',monospace" >ready</text>
@@ -381,7 +381,7 @@
 <rect x="729" y="563" width="58" height="48" rx="10" fill="#332a51" stroke="#77648f" stroke-width="1"/>
 <text x="758" y="595" fill="#dfc9f6" font-size="22" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" text-anchor="middle">#</text>
 <g filter="url(#shadow)"><rect x="122" y="638" width="1010" height="58" rx="12" fill="#221d39" stroke="#786399" stroke-width="1.5"/></g>
-<text x="146" y="666" fill="#e1c9fc" font-size="15" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >SYSTEM  //  0.3.0</text>
+<text x="146" y="666" fill="#e1c9fc" font-size="15" font-weight="700" font-family="'DejaVu Sans Mono','Consolas',monospace" >SYSTEM  //  0.4.0</text>
 <text x="146" y="685" fill="#aa9abf" font-size="13" font-weight="400" font-family="'DejaVu Sans Mono','Consolas',monospace" >github profile / read-only desktop</text>
 <circle cx="643" cy="667" r="5" fill="#91deb5"/>
 <text x="658" y="672" fill="#c2e8d8" font-size="15" font-weight="500" font-family="'DejaVu Sans Mono','Consolas',monospace" >filesystem mounted</text>
