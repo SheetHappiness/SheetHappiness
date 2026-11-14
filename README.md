@@ -32,7 +32,7 @@
 </details>
 
 <details name="softsock-os">
-<summary><kbd>⚙</kbd> <strong>System</strong> &nbsp; <code>04 / SYSTEM</code> &nbsp; <sub>/etc/softsock</sub></summary>
+<summary><kbd>⚙</kbd> <strong>System</strong> &nbsp; <code>04 / ABOUT</code> &nbsp; <sub>/etc/softsock</sub></summary>
 
 <img src="./assets/screens/about.svg" width="100%" alt="System: expanded softsock OS desktop screen">
 

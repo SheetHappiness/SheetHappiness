@@ -19,7 +19,7 @@
 <rect x="511" y="32" width="317" height="9" fill="#4D3A68"/>
 <circle cx="526" cy="29" r="3" fill="#EAA4BA"/><circle cx="538" cy="29" r="3" fill="#F1D39B"/><circle cx="550" cy="29" r="3" fill="#A1DABA"/>
 <text x="568" y="33" font-family="DejaVu Sans Mono,monospace" font-size="11" fill="#EDDEF8">softsock/about</text>
-<text x="528" y="55" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#E1E6FF">version / 0.4.0</text>
+<text x="528" y="55" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#E1E6FF">version / 0.4.1</text>
 <text x="528" y="70" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#D2C2E4">profile / ready</text>
 <text x="528" y="85" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#AFA2C6">read-only mode</text>
 <circle cx="865" cy="56" r="21" fill="#4C3B67" stroke="#8C75B0" stroke-width="1"/>
