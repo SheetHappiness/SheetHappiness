@@ -1,3 +1,70 @@
+# hey, i make things that (almost) feel alive.
+
+hi! i like building AI agents, tiny developer tools, and characters that do more than wait for a prompt.
+
+most of my experiments live somewhere between **local LLMs**, **fine-tuning**, and one recurring question: *what should an AI notice, remember, or say – and when should it stay quiet?*
+
+**currently exploring:** attention, perception, and making AI characters feel a little more present.
+
+## too many tabs open
+
+i'm a little obsessed with these repositories. pick a rabbit hole:
+
+<details>
+<summary><strong>🤗 huggingface/datasets</strong> · the data rabbit hole</summary>
+
+**[huggingface/datasets](https://github.com/huggingface/datasets)**
+
+finding, cleaning, slicing, and understanding data is half the fun of training a model. sometimes more than half.
+
+</details>
+
+<details>
+<summary><strong>🎮 VedalAI/neuro-sdk</strong> · when an AI can actually play</summary>
+
+**[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)**
+
+i love the idea of AI characters interacting with a game world instead of existing only inside a chat box.
+
+</details>
+
+<details>
+<summary><strong>🕹️ VedalAI/neuro-cyberpunk</strong> · a character meets a game</summary>
+
+**[VedalAI/neuro-cyberpunk](https://github.com/VedalAI/neuro-cyberpunk)**
+
+a fun rabbit hole for seeing what happens when an AI character gets to interact with something beyond a text interface.
+
+</details>
+
+<details>
+<summary><strong>🧪 axolotl</strong> · one more fine-tuning experiment</summary>
+
+**[axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)**
+
+because apparently i can't stop thinking about how to give small models a personality of their own.
+
+</details>
+
+## things i've made
+
+- **[liac-ai](https://github.com/SheetHappiness/liac-ai)** – an AI character runtime that listens to events and decides whether to speak or stay silent.
+- **[pi-autocomplete](https://github.com/SheetHappiness/pi-autocomplete)** – fast, private ghost-text completions for the Pi coding agent.
+- **[loonyball](https://github.com/SheetHappiness/loonyball)** – a squishy desktop companion with a surprising amount of personality.
+
+<details>
+<summary>psst... one more tab</summary>
+
+i'm not really trying to build *another chatbot with an avatar*.
+
+i'm curious about characters that can pay attention, have their own timing, and sometimes decide that the best response is no response at all.
+
+</details>
+
+<br>
+
+<details>
+<summary><strong>open the toolbox</strong> · stack, models, and other technical things</summary>
 
 ### AI & LLM Stack
 
@@ -7,3 +74,5 @@
 | **LLM Tools** | [![LM Studio](https://img.shields.io/badge/LM_Studio-202020?style=flat)](https://lmstudio.ai/) [![llama.cpp](https://img.shields.io/badge/llama.cpp-222222?style=flat)](https://github.com/ggml-org/llama.cpp) [![Axolotl](https://img.shields.io/badge/Axolotl-4B0082?style=flat)](https://github.com/axolotl-ai-cloud/axolotl) [![LLaMA Factory](https://img.shields.io/badge/LLaMA_Factory-FF6F00?style=flat)](https://github.com/hiyouga/LlamaFactory) [![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit) |
 | **Agent Engineering** | ![AI Agents](https://img.shields.io/badge/AI_Agents-7C3AED?style=flat) [![MCP](https://img.shields.io/badge/MCP-222222?style=flat)](https://modelcontextprotocol.io/) ![Tool Calling](https://img.shields.io/badge/Tool_Calling-6366F1?style=flat) ![Model Routing](https://img.shields.io/badge/Model_Routing-4338CA?style=flat) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-6D28D9?style=flat) ![Context Engineering](https://img.shields.io/badge/Context_Engineering-0D9488?style=flat) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0891B2?style=flat) |
 | **LLM Systems** | ![KV Cache](https://img.shields.io/badge/KV_Cache-374151?style=flat) ![Prefix Caching](https://img.shields.io/badge/Prefix_Caching-374151?style=flat) ![Token Streaming](https://img.shields.io/badge/Token_Streaming-374151?style=flat) |
+
+</details>
