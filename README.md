@@ -1,4 +1,4 @@
-# hi! i am sheethappiness
+# hi !i am sheethappiness
 
 *ai/ml & ai security. self-taught.
 a little into gpu programming, cuda, triton, gpu kernels..*
