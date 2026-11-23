@@ -1,5 +1,5 @@
 
-obsessed with [`VedalAI/neuro-sdk`](https://github.com/VedalAI/neuro-sdk) 
+**obsessed with** [`VedalAI/neuro-sdk`](https://github.com/VedalAI/neuro-sdk) 
 
 | Category | Technologies & Skills |
 |:---|:---|
