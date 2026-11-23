@@ -1,14 +1,12 @@
-# hey, i make things that (almost) feel alive.
+# sheethappiness aka softsock
 
-hi! i like building AI agents, tiny developer tools, and characters that do more than wait for a prompt.
 
-most of my experiments live somewhere between **local LLMs**, **fine-tuning**, and one recurring question: *what should an AI notice, remember, or say – and when should it stay quiet?*
 
-**currently exploring:** attention, perception, and making AI characters feel a little more present.
 
-## too many tabs open
 
-i'm a little obsessed with these repositories. pick a rabbit hole:
+
+
+obsessed with 
 
 <details>
 <summary><strong>🤗 huggingface/datasets</strong> · the data rabbit hole</summary>
