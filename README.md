@@ -1,7 +1,8 @@
 # !i am sheethappiness
 
 **ai/ml & ai security**
-*a little into 'gpu programming, cuda, triton, gpu kernels..*
+---
+*a little into gpu programming, cuda, triton, gpu kernels..*
 
 **obsessed** with [`VedalAI/neuro-sdk`](https://github.com/VedalAI/neuro-sdk) [`axolotl-ai-cloud/axolotl`](https://github.com/axolotl-ai-cloud/axolotl) [`huggingface/datasets`](https://github.com/huggingface/datasets)
 ### AI & LLM Stack
