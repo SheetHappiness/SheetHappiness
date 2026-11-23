@@ -1,6 +1,6 @@
 # sheethappiness aka softsock
 
-obsessed with [VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk) [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) [huggingface/datasets](https://github.com/huggingface/datasets)
+obsessed with `[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)` [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) [huggingface/datasets](https://github.com/huggingface/datasets)
 ### AI & LLM Stack
 
 | Category | Technologies & Skills |
