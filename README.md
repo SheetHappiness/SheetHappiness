@@ -1,6 +1,6 @@
 # hi !i am sheethappiness
 
-**ai/ml & ai security enjoyer**
+**llm & ai security enjoyer**
 /
 *a little into gpu programming, cuda, triton, gpu kernels..*
 
