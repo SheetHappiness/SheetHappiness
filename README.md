@@ -2,7 +2,7 @@
 
 **ai/ml, self-taught student. interested in llm training, fine-tuning (qlora), datasets, autonomous llm systems and agent loops. a little into gpu programming.**
 
-obsessed with [`VedalAI/neuro-sdk`](https://github.com/VedalAI/neuro-sdk) [`axolotl-ai-cloud/axolotl`](https://github.com/axolotl-ai-cloud/axolotl) [`huggingface/datasets`](https://github.com/huggingface/datasets)
+*obsessed* with [`VedalAI/neuro-sdk`](https://github.com/VedalAI/neuro-sdk) [`axolotl-ai-cloud/axolotl`](https://github.com/axolotl-ai-cloud/axolotl) [`huggingface/datasets`](https://github.com/huggingface/datasets)
 ### AI & LLM Stack
 
 | Category | Technologies & Skills |
