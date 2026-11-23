@@ -46,12 +46,6 @@ because apparently i can't stop thinking about how to give small models a person
 
 </details>
 
-## things i've made
-
-- **[liac-ai](https://github.com/SheetHappiness/liac-ai)** – an AI character runtime that listens to events and decides whether to speak or stay silent.
-- **[pi-autocomplete](https://github.com/SheetHappiness/pi-autocomplete)** – fast, private ghost-text completions for the Pi coding agent.
-- **[loonyball](https://github.com/SheetHappiness/loonyball)** – a squishy desktop companion with a surprising amount of personality.
-
 <details>
 <summary>psst... one more tab</summary>
 
