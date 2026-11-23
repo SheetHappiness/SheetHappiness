@@ -1,17 +1,11 @@
 # sheethappiness aka softsock
 
-
-
-
-
-
-
 obsessed with 
 
 <details>
 <summary><strong>🤗 huggingface/datasets</strong> · the data rabbit hole</summary>
 
-**[huggingface/datasets](https://github.com/huggingface/datasets)**
+[huggingface/datasets](https://github.com/huggingface/datasets)
 
 finding, cleaning, slicing, and understanding data is half the fun of training a model. sometimes more than half.
 
@@ -20,7 +14,7 @@ finding, cleaning, slicing, and understanding data is half the fun of training a
 <details>
 <summary><strong>🎮 VedalAI/neuro-sdk</strong> · when an AI can actually play</summary>
 
-**[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)**
+[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)
 
 i love the idea of AI characters interacting with a game world instead of existing only inside a chat box.
 
@@ -44,20 +38,6 @@ because apparently i can't stop thinking about how to give small models a person
 
 </details>
 
-<details>
-<summary>psst... one more tab</summary>
-
-i'm not really trying to build *another chatbot with an avatar*.
-
-i'm curious about characters that can pay attention, have their own timing, and sometimes decide that the best response is no response at all.
-
-</details>
-
-<br>
-
-<details>
-<summary><strong>open the toolbox</strong> · stack, models, and other technical things</summary>
-
 ### AI & LLM Stack
 
 | Category | Technologies & Skills |
@@ -66,5 +46,3 @@ i'm curious about characters that can pay attention, have their own timing, and 
 | **LLM Tools** | [![LM Studio](https://img.shields.io/badge/LM_Studio-202020?style=flat)](https://lmstudio.ai/) [![llama.cpp](https://img.shields.io/badge/llama.cpp-222222?style=flat)](https://github.com/ggml-org/llama.cpp) [![Axolotl](https://img.shields.io/badge/Axolotl-4B0082?style=flat)](https://github.com/axolotl-ai-cloud/axolotl) [![LLaMA Factory](https://img.shields.io/badge/LLaMA_Factory-FF6F00?style=flat)](https://github.com/hiyouga/LlamaFactory) [![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit) |
 | **Agent Engineering** | ![AI Agents](https://img.shields.io/badge/AI_Agents-7C3AED?style=flat) [![MCP](https://img.shields.io/badge/MCP-222222?style=flat)](https://modelcontextprotocol.io/) ![Tool Calling](https://img.shields.io/badge/Tool_Calling-6366F1?style=flat) ![Model Routing](https://img.shields.io/badge/Model_Routing-4338CA?style=flat) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-6D28D9?style=flat) ![Context Engineering](https://img.shields.io/badge/Context_Engineering-0D9488?style=flat) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0891B2?style=flat) |
 | **LLM Systems** | ![KV Cache](https://img.shields.io/badge/KV_Cache-374151?style=flat) ![Prefix Caching](https://img.shields.io/badge/Prefix_Caching-374151?style=flat) ![Token Streaming](https://img.shields.io/badge/Token_Streaming-374151?style=flat) |
-
-</details>
