@@ -1,43 +1,6 @@
 # sheethappiness aka softsock
 
-obsessed with 
-
-<details>
-<summary><strong>🤗 huggingface/datasets</strong> · the data rabbit hole</summary>
-
-[huggingface/datasets](https://github.com/huggingface/datasets)
-
-finding, cleaning, slicing, and understanding data is half the fun of training a model. sometimes more than half.
-
-</details>
-
-<details>
-<summary><strong>🎮 VedalAI/neuro-sdk</strong> · when an AI can actually play</summary>
-
-[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)
-
-i love the idea of AI characters interacting with a game world instead of existing only inside a chat box.
-
-</details>
-
-<details>
-<summary><strong>🕹️ VedalAI/neuro-cyberpunk</strong> · a character meets a game</summary>
-
-**[VedalAI/neuro-cyberpunk](https://github.com/VedalAI/neuro-cyberpunk)**
-
-a fun rabbit hole for seeing what happens when an AI character gets to interact with something beyond a text interface.
-
-</details>
-
-<details>
-<summary><strong>🧪 axolotl</strong> · one more fine-tuning experiment</summary>
-
-**[axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)**
-
-because apparently i can't stop thinking about how to give small models a personality of their own.
-
-</details>
-
+obsessed with [huggingface/datasets](https://github.com/huggingface/datasets)[VedalAI/neuro-sdk](https://github.com/VedalAI/neuro-sdk)[VedalAI/neuro-cyberpunk](https://github.com/VedalAI/neuro-cyberpunk)[axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)
 ### AI & LLM Stack
 
 | Category | Technologies & Skills |
